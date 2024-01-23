@@ -16,14 +16,14 @@ def hello():
     print("I am inside Hello World")
     return 'Re kene!'
 
-# @app.route('/html/')
-# def html():
-#     """Returns some custom HTML"""
-#     return """
-#     <title>This is a Hello World World Page</title>
-#     <p>Hello</p>
-#     <p><b>World</b></p>
-#     """
+@app.route('/html/')
+def html():
+    """Returns some custom HTML"""
+    return """
+    <title>This is a Hello World World Page</title>
+    <p>Hello</p>
+    <p><b>World</b></p>
+    """
 
 @app.route('/echo/<name>')
 def echo(name):
