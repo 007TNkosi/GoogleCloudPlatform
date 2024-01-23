@@ -1,0 +1,3 @@
+# This is a part of the IaC (Infrastructure as Code) and configures 
+# the PaaS environment for Google App Engine.
+runtime: python38
